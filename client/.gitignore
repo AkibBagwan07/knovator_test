@@ -1,0 +1,14 @@
+node_modules
+build
+dist
+dist-ssr
+*.local
+*.log
+
+# Editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Env files
+.env*

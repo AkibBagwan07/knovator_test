@@ -1,0 +1,19 @@
+node_modules
+logs
+*.log
+
+# Output
+dist
+dist-ssr
+
+# Redis
+dump.rdb
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Env
+.env*
