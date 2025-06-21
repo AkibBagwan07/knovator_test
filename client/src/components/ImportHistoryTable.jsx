@@ -12,6 +12,7 @@ const ImportHistoryTable = () => {
       try {
         const { data } = await getImportLogs();
         setLogs(data);
+        console.log(logs)
       } catch (err) {
         console.error("Error fetching import logs:", err.message);
       } finally {
